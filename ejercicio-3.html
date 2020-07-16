@@ -19,16 +19,34 @@
 
         .flag__spain {
             background-color: red;
+            position: relative;
         }
 
         .flag__spain div{
             background-color: yellow;
             height: 50%;
+            position: relative;
+            margin-top: 62.5px;
         }
 
         .flag__denmark {
             background-color: red;
         }
+
+        .line__vertical {
+            background-color: white;
+            width: 30px;
+            height: 250px;
+            position: relative;
+            margin-left: 110px;
+        }
+
+        /* .line__horinzontal {
+            background-color: white;
+            width: 400px;
+            height: 30px;
+            position: relative;
+        } */
 
         .flag__arabemirates {
             background-color: white;
@@ -36,6 +54,8 @@
 
         .flag__japan {
             background-color: white;
+            border: 1px solid gray;
+            position: relative;
         }
 
         .flag__japan div {
@@ -43,13 +63,23 @@
             height: 60%;
             width: 40%;
             border-radius: 50%;
+            position: relative;
+            margin: auto;
+            margin-top: 48px;
         }
     </style>
 </head>
 <body>
-        <section class="flag flag__spain"><div></div></section>
-        <section class="flag flag__denmark"></section>
+        <section class="flag flag__spain">
+            <div></div>
+        </section>
+        <section class="flag flag__denmark">
+            <div class="line__vertical"></div>
+            <div class="line__horizontal"></div>
+        </section>
         <section class="flag flag__arabemirates"></section>
-        <section class="flag flag__japan"><div></div></section>
+        <section class="flag flag__japan">
+            <div></div>
+        </section>
 </body>
 </html>
